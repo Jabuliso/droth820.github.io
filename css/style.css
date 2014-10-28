@@ -3,12 +3,13 @@
 /*CSS to complement Bootstrap CSS*/
 
 body{
-	font-family: 'Titillium Web', sans-serif;
+	/*font-family: 'Titillium Web', sans-serif;*/
+	font-family: 'Lato', sans-serif;
 	color: #131A2D;
 	font-weight: 300;
 	background-color: #FFFFFF;
 }
-----------------------------------------------------------------------
+/*----------------------------------------------------------------------*/
 /*Styles to display previous projects in Featured Work sectioni*/
 .featuredWork{
 	background-color: #000000;
@@ -17,7 +18,7 @@ body{
 .image-background{
 	background-color: #FFF;
 }
------------------------------------------------------------------------
+/*----------------------------------------------------------------------*/
 /*Marquee section and image*/
 .intro{
 	width:100%;
@@ -34,18 +35,19 @@ body{
 	margin-left:auto;
 	margin-right: auto;
 }
---------------------------------------------------------------------------
+/*----------------------------------------------------------------------*/
 /*Style for horizontal rule*/
 .rule{
 	width:auto;
-	height: 4px;
-	background-color: #F8981C;
+	height: 6px;
+	background-color: #D0c4AB;
 	border-top:hidden;
 }
--------------------------------------------------------------------------
+/*----------------------------------------------------------------------*/
 /*Styles for title text*/
 .super-title{
 	font-size: 60px;
+	font-weight: 700;
 	color: #131A2D;
 }
 
@@ -65,11 +67,5 @@ body{
 .text-thin{
 	font-weight: 100;
 }
-
-
-
-
-
-
 
 

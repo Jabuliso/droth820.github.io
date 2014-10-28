@@ -4,40 +4,37 @@
 <title>Home</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-compatible" content="IE=edge">
-"
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300' rel='stylesheet' type='text/css'>
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+<!--<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300' rel='stylesheet' type='text/css'>-->
 </head><body>
-<!--Container to hold header content -->
-<div class="container">
+
+<div class="container"><!--Begin Container div-->
   <div class="row">
     <div class="col-md-12 text-right text-uppercase">
-      <h1 class="text-thin super-title">David Roth</h1>
+      <h1 class="super-title">David Roth</h1>
       <h3>Front-end Ninja</h3>
     </div>
   </div>
   <div class="row">
     <div class="col-md-12"> </div>
     <hr class="rule">
-  </div><!--End of header container-->
-  <!--This container holds marquee image and will eventually be replaced with transitional marquee to show completed projects -->
+  </div>
+
   <div class="featuredWork">
-    <div class="container intro">
+    <div class="container intro"><!--holds marquee image-->
       <div class="row-center">
         <div class="col-md-12"><img class="img-responsive" src="images/codeImage.jpg" alt="Code image"></div>
       </div>
-    </div><!--End of marquee-->
-    <!--Title for main content section-->
+    </div><!--End of container intro div-->
+    <!--The following rows display the main content area containing completed projects for portfolio-->
     <div class="row">
       <div class="col-md-12">
         <h2 class="text-muted text-large">Featured Work</h2>
       </div>
-    </div><!--End of main content title-->
-    <!--This section displays past projects-->
+    </div>
     <div class="row text-center">
       <div class="col-md-6"> <img class="img-responsive project-image" src="images/force-recon-water.png" data-toggle="modal" data-target="#project1">
         <h3 class="text-muted">Jarhead Professionals</h3>
@@ -57,11 +54,11 @@
         <h3 class="text-muted">Physical Geography Help Application</h3>
         <p><a href="http://github.com">Global Warming</a></p>
       </div>
-    </div>
+    </div><!--End of displayed projects in portfoliio-->
   </div>
-</div> <!--End of past project display-->
+</div><!--End of container div-->
 
-<!--Modal sections allow for user interactivity. When the user clicks on an image, a light box pops up displaying thumbnail version of image and project description.-->
+<!--Modals contain detailed project information-->
 <!-- Modal -->
 <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -121,5 +118,7 @@
     </div>
   </div>
 </div><!--End of Modal section-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
