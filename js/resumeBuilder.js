@@ -113,14 +113,8 @@ var projects = {
             "dates": "2013",
             "description": "This website was created to showcase Dr. Miller's practice. This website contains a contact form, interactive slide show, video, and Google map.",
             "images": "#"
-        },
-
-        {
-            "title": "ljaljsal;gjal;gj;",
-            "dates": "lashglg",
-            "description": "oghaogjoiashgoashgohsaoghalsghlahglahglahglag",
-            "images": "#"
         }
+
     ]
 }
 
